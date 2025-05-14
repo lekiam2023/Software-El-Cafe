@@ -1,0 +1,129 @@
+.App {
+     text-align: center;
+     font-size: 1.5rem;
+}
+
+/*Contenedor principal*/
+.C-principal{
+      height: 1366px;
+      width: 1024;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding: 20px;
+      gap:200px;
+      background-color: rgb(216, 223, 223);
+      border: 1px solid ;
+}
+
+/*Contenedor principal del menú y sus opciones*/
+.Menu{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border: solid ;
+}
+
+/*Contenido del menú*/
+.M-Contenido{
+      width:200px;
+      margin-left:-28%;
+      height:39px;
+      border: solid;
+      margin-top: 4px;
+}
+
+/*Esto es para que cambie el color del fondo de las opciones del Menú*/
+.M-Contenido:hover{
+     background-color: aliceblue;
+}
+
+/*Estilos par los <a>*/
+.link{
+     color: black;
+     text-decoration: none;
+     font-size: 1.7rem;
+}
+
+ /*Le quitamos los puntos de decoración de la lista desordenada de <uls>*/
+.lista{
+     list-style-type: none;
+}
+
+/*Estilos de cambio de color de las letras*/
+.link:hover{
+      color: rgb(36, 219, 75);
+}
+
+/*Estilos del fondo de donde se mostrará la información y las imágenes de la carta*/
+.C-ImgInfo{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+      width: 800px;
+      height: 600px;
+      gap: 4%;
+}
+
+ /*Las imágenes que se verán con su respectiva información*/
+.Contenido{
+      width: 200px;
+      height: 100px;
+      border: solid rgb(61, 61, 61);
+      background-color: rgb(247, 241, 241);
+      margin-top: 2%;
+}
+
+/*Medidas Responsive para tables*/
+@media (min-width: 768px) and (max-width: 1199px) {
+    .C-principal{
+        width: auto;
+        height: 600px;
+        font-size: 1.2rem;
+        background-color: rgb(211, 216, 216);
+        border: solid;
+    }
+    /*Menú*/
+     .Menu{
+        height: 640px;
+        margin-top: -2.1%;
+        background-color: rgb(188, 202, 215);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: solid ;
+        margin-left: -10%;
+        
+        
+      }
+       /*Le quitamos los puntos de decoración de la lista desordenada de <uls>*/
+        .lista{
+          list-style-type: none;
+          margin-right: 40%;
+          margin-bottom: 30%;     
+        }
+      /*Contenido del menú*/
+      .M-Contenido{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      margin-bottom: 19%;
+        background-color: rgb(254, 254, 254);
+      }
+
+      /*Estilos del fondo de donde se mostrará la información y las imágenes de la carta*/
+     .C-ImgInfo{
+       width: 600px;
+       height: 600px;
+       border: solid;
+      }
+}
+
+
+
+
+
+
+
+
