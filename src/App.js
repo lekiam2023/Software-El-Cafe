@@ -7,20 +7,20 @@ function App() {
       
       <div className='C-principal'>
 
-      <div className='Menu'>
+      <nav className='Menu'>
           <div className='tituloCarta'><p>Carta</p></div>
         <ul className='lista'>
             <li className='M-Contenido'><a href=''className='link'>Cafés</a></li>
-            <li className='M-Contenido'><a href=''className='>link'>Aguas</a></li>
-            <li className='M-Contenid'><a href=''className='link'>Vinos</a></li>
-            <li className='M-Contenio'><a href=''className='link'>Cervezas</a></li>
-            <li className='M-Contendo'><a href=''className='link'>Refrescos</a></li>
-            <li className='M-Conteido'><a href=''className='link'>Comidas</a></li>
-            <li className='M-Contnido'><a href=''className='link'>Pica-Pica</a></li>
+            <li className='M-Contenido'><a href=''className='link'>Aguas</a></li>
+            <li className='M-Contenido'><a href=''className='link'>Vinos</a></li>
+            <li className='M-Contenido'><a href=''className='link'>Cervezas</a></li>
+            <li className='M-Contenido'><a href=''className='link'>Refrescos</a></li>
+            <li className='M-Contenido'><a href=''className='link'>Comidas</a></li>
+            <li className='M-Contenido'><a href=''className='link'>Pica-Pica</a></li>
           </ul>
-       </div>  
+       </nav>  
          
-            <div className='C-ImgInfo'>
+            <section className='C-ImgInfo'>
                  <div className="Contenido"></div>
                  <div className="Contenido"></div>
                  <div className="Contenido"></div>
@@ -33,7 +33,7 @@ function App() {
                  <div className="Contenido"></div>
                  <div className="Contenido"></div>
                  <div className="Contenido"></div>
-            </div>
+            </section>
       </div>
     </div>
   );
