@@ -4,18 +4,19 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      
       <div className='C-principal'>
 
       <div className='Menu'>
-          <p>Carta</p>
+          <div className='tituloCarta'><p>Carta</p></div>
         <ul className='lista'>
-            <div className='M-Contenido'><a href=''className='link'><li>Cafés</li></a></div>
-            <div className='M-Contenido'><a href=''className='link'><li>Aguas</li></a></div>
-            <div className='M-Contenido'><a href=''className='link'><li>Vinos</li></a></div>
-            <div className='M-Contenido'><a href=''className='link'><li>Cervezas</li></a></div>
-            <div className='M-Contenido'><a href=''className='link'><li>Refrescos</li></a></div>
-            <div className='M-Contenido'><a href=''className='link'><li>Comidas</li></a></div>
-            <div className='M-Contenido'><a href=''className='link'><li>Pica-Pica</li></a></div>
+            <li className='M-Contenido'><a href=''className='link'>Cafés</a></li>
+            <li className='M-Contenido'><a href=''className='>link'>Aguas</a></li>
+            <li className='M-Contenid'><a href=''className='link'>Vinos</a></li>
+            <li className='M-Contenio'><a href=''className='link'>Cervezas</a></li>
+            <li className='M-Contendo'><a href=''className='link'>Refrescos</a></li>
+            <li className='M-Conteido'><a href=''className='link'>Comidas</a></li>
+            <li className='M-Contnido'><a href=''className='link'>Pica-Pica</a></li>
           </ul>
        </div>  
          
@@ -25,10 +26,13 @@ function App() {
                  <div className="Contenido"></div>
                  <div className="Contenido"></div>
                  <div className="Contenido"></div>
+                 <div className="Contenido"><img src='img/maikel.jpeg' alt='Foto'/></div>
                  <div className="Contenido"></div>
-                   <div className="Contenido"></div>
                  <div className="Contenido"></div>
-
+                 <div className="Contenido"></div>
+                 <div className="Contenido"></div>
+                 <div className="Contenido"></div>
+                 <div className="Contenido"></div>
             </div>
       </div>
     </div>

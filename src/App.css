@@ -6,36 +6,42 @@
 /*Contenedor principal*/
 .C-principal{
       height: 1366px;
-      width: 1024;
+      width: 1324;
       display: flex;
       flex-direction: row;
       justify-content: center;
       padding: 20px;
       gap:200px;
-      background-color: rgb(216, 223, 223);
-      border: 1px solid ;
 }
 
 /*Contenedor principal del menú y sus opciones*/
 .Menu{
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      border: solid ;
+      justify-content: center; 
+
+}
+
+.tituloCarta{
+      width: 200px;
+      height: 40px;
+      align-items: center;
+      background-color: azure;
+      text-align: center;
+
 }
 
 /*Contenido del menú*/
 .M-Contenido{
       width:200px;
-      margin-left:-28%;
-      height:39px;
-      border: solid;
-      margin-top: 4px;
+      margin-left:-15%;
+      height:40px;
+       color: rgb(255, 255, 48);
 }
 
 /*Esto es para que cambie el color del fondo de las opciones del Menú*/
 .M-Contenido:hover{
-     background-color: aliceblue;
+     background-color: rgb(0, 0, 0);
 }
 
 /*Estilos par los <a>*/
@@ -52,71 +58,114 @@
 
 /*Estilos de cambio de color de las letras*/
 .link:hover{
-      color: rgb(36, 219, 75);
+      color: rgb(246, 246, 246);
 }
-
 /*Estilos del fondo de donde se mostrará la información y las imágenes de la carta*/
 .C-ImgInfo{
+      width: 1000px;
       display: flex;
       flex-direction: row;
       justify-content: center;
       flex-wrap: wrap;
-      width: 800px;
+      width: 900px;
       height: 600px;
       gap: 4%;
 }
 
- /*Las imágenes que se verán con su respectiva información*/
-.Contenido{
-      width: 200px;
-      height: 100px;
-      border: solid rgb(61, 61, 61);
-      background-color: rgb(247, 241, 241);
-      margin-top: 2%;
-}
-
-/*Medidas Responsive para tables*/
-@media (min-width: 768px) and (max-width: 1199px) {
-    .C-principal{
-        width: auto;
+.C-principal{
+        width: 1500px;
         height: 600px;
         font-size: 1.2rem;
         background-color: rgb(211, 216, 216);
         border: solid;
     }
+
+
+ /*Las imágenes que se verán con su respectiva información*/
+.Contenido{
+      width: 200px;
+      height: 100px;
+      margin-top: 2%;
+      cursor: pointer;
+}
+
+/*Medidas Responsive para tables*/
+@media (min-width: 768px) and (max-width: 1199px) {
+    .C-principal{
+        margin-top: 2%;
+        margin-left: 9%;
+        width: 1000px;
+        height: 600px;
+        font-size: 1.2rem;
+        background-color: rgb(0, 0, 0);
+       
+    }
+    .tituloCarta{
+      width: 200px;
+      height: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: rgb(230, 230, 14);
+      flex-wrap: wrap;
+      margin-left: 7%;
+      font-size: 2rem;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  
+
+}
+     /*Las imágenes que se verán con su respectiva información*/
+      .Contenido{
+           width: 150px;
+           height: 100px;
+           background-color: rgb(247, 241, 241);
+           margin-top: 2%;
+           align-items: center;
+           margin-right: 3%;
+
+            }
     /*Menú*/
      .Menu{
         height: 640px;
         margin-top: -2.1%;
-        background-color: rgb(188, 202, 215);
+        background-color: rgb(63, 65, 66);
         display: flex;
         flex-direction: column;
         justify-content: center;
-        border: solid ;
-        margin-left: -10%;
+        margin-left: -2.2%;
+        
         
         
       }
        /*Le quitamos los puntos de decoración de la lista desordenada de <uls>*/
         .lista{
           list-style-type: none;
-          margin-right: 40%;
+          margin-left: 3%;
           margin-bottom: 30%;     
+          
         }
       /*Contenido del menú*/
       .M-Contenido{
         display: flex;
         flex-direction: column;
         justify-content: center;
-      margin-bottom: 19%;
-        background-color: rgb(254, 254, 254);
+        flex-basis: auto;
+        margin-bottom: 5%;
+        background-color: rgb(230, 230, 14);
       }
 
       /*Estilos del fondo de donde se mostrará la información y las imágenes de la carta*/
      .C-ImgInfo{
-       width: 600px;
-       height: 600px;
-       border: solid;
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+       margin-left: -16%;/*Para centrar el contenedor de las imagenes y su informacuion
+       Estaba pegado muy a la derecha  
+       */
+       width: auto;
+       height: auto;
+       
       }
 }
 
